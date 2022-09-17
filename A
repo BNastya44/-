@@ -1,0 +1,18 @@
+a = "Something" # Со словом
+print(a.upper())
+
+b = 12 # С числом
+b = pow(b, 2)
+print(b)
+
+c = "it is something" # Со строкой
+print(c.upper())
+
+d = [1, 2, 3, 5]  # Со списком
+print(d)
+d.insert(3, 4)
+print(d)
+
+e = tuple('6 7 8 9') # С картежем
+print(tuple(e))
+print(type(tuple(e)))
