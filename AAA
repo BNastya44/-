@@ -1,0 +1,11 @@
+def f(n):
+    a1=1
+    a2=1
+    a3=2
+    while a3<=n:
+        if n==a3 or n==a1 or n==a2:
+            return print('da')
+        a3,a2,a1 = a2+a3, a3, a2
+    print('no')
+n = int(input())
+f(n)
