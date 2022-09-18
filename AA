@@ -59,8 +59,20 @@ if func == "умножение":
     res = a*b
     print(res)
 if func == "деление":
-    res = a//b
-    print(res)
+    if b != 0:
+        res = a // b
+        print(res)
+    else:
+        while b == 0:
+            print("Введите другое чило, отличное от 0: ")
+            b = int(input())
+
+            if b!=0:
+                print("Вы ввели ", b)
+                res = a // b
+                print(res)
+                break
+
 
 if func == "возведение в степень":
     res = a**b
