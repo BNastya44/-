@@ -13,6 +13,6 @@ print(d)
 d.insert(3, 4)
 print(d)
 
-e = tuple('6 7 8 9') # С картежем
+e = tuple('6 7 8 9') # С кортежем
 print(tuple(e))
 print(type(tuple(e)))
